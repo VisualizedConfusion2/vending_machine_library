@@ -12,7 +12,7 @@ namespace vending_machine_library.Interfaces
     {
         List<Product> GetAll(); // List for all Product
 
-        void Add(Product product); // Adds a product to the repository
+        void Add(Product product); // Adds a product to the repo
 
         Product GetByID(int id); // Gets a specific product from the ID
         //public void UpdateProduct(Product product); // Updates specific information of a product
