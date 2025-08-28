@@ -3,11 +3,26 @@ using vending_machine_library.Models;
 
 namespace vending_machine_library.Interfaces
 {
-    public interface ITransactionRepo
+    public class TransactionRepo : ITransactionRepo
     {
-        List<Transaction> GetAll();                // Get all transactions
-        void Add(Transaction transaction);         // Record a new transaction
-        Transaction GetByID(int id);               // Find a specific transaction
-        List<Transaction> GetByProduct(int productId); // Get all transactions for a product
+        public void Add(Transaction transaction)
+        {
+            throw new NotImplementedException();
+        }
+
+        public List<Transaction> GetAll()
+        {
+            throw new NotImplementedException();
+        }
+
+        public Transaction GetByID(int id)
+        {
+            throw new NotImplementedException();
+        }
+
+        public List<Transaction> GetByProduct(int productId)
+        {
+            throw new NotImplementedException();
+        }
     }
 }

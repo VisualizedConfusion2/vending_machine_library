@@ -7,7 +7,7 @@ using vending_machine_library.Models;
 
 namespace vending_machine_library.Interfaces
 {
-    public interface ITransactionsRepo
+    public interface ITransactionRepo
     {
         List<Transaction> GetAll(); // Get all transactions
         void Add(Transaction transaction); // Record a new transaction

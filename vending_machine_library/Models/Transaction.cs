@@ -7,11 +7,11 @@ namespace vending_machine_library.Models
         public int Id { get; set; }
         public int ProductId { get; set; }
         public int Quantity { get; set; }
-        public decimal TotalAmount { get; set; }
+        public float TotalAmount { get; set; }
 
         public Transaction() { } //def constructor
 
-        public Transaction(int id, int productId, int quantity, decimal totalAmount, string action, DateTime timestamp)
+        public Transaction(int id, int productId, int quantity, float totalAmount)
         {
             Id = id;
             ProductId = productId;
