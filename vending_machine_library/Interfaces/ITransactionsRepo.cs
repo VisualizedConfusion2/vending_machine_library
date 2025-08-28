@@ -8,5 +8,6 @@ namespace vending_machine_library.Interfaces
 {
     internal interface ITransactionsRepo
     {
+
     }
 }
