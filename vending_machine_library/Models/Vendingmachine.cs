@@ -7,7 +7,7 @@
 
         public Vendingmachine()
         {
-            Slots = new List<Slot>(); // initialize list
+            Slots = new List<Slot>();
         }
     }
 }
