@@ -1,6 +1,6 @@
 ﻿namespace vending_machine_library
 {
-    public class Class1
+    public class Product
     {
 
     }
