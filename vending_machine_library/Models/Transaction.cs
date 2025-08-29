@@ -5,18 +5,16 @@ namespace vending_machine_library.Models
     public class Transaction
     {
         public int Id { get; set; }
-        public int ProductId { get; set; }
-        public int Quantity { get; set; }
-        public float TotalAmount { get; set; }
+        public string ProductName { get; set; }
+        public float Price { get; set; }
 
         public Transaction() { } //def constructor
 
-        public Transaction(int id, int productId, int quantity, float totalAmount)
+        public Transaction(int id, string productName, float price)
         {
             Id = id;
-            ProductId = productId;
-            Quantity = quantity;
-            TotalAmount = totalAmount;
+            ProductName = productName;
+            Price = price;
         }
     }
 }
