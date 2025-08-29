@@ -11,15 +11,16 @@ namespace vending_machine_library.Models
         public List<Transaction> Transactions { get; set; }
         private int _transactionCounter = 1; // Auto-increment transaction IDs
 
+        //list of available slots
         public Vendingmachine()
         {
             Slots = new List<Slot>();
             Transactions = new List<Transaction>();
         }
-
+        //Transaction logging, change return and buy function
         private void _returnChange(double change)
         {
-            
+            Debug.WriteLine(change+ "her er dine penge");
         }
 
         public Product Buy(int slotIndex, double[] insertedCoins)
@@ -39,8 +40,6 @@ namespace vending_machine_library.Models
             _transactionCounter++;
             return Slots[slotIndex].EjectProduct();
         }
-
-        // Buy function with transaction logging
         
     }
 }
