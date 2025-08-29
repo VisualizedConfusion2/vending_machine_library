@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Security.Cryptography.X509Certificates;
 using System.Text;
 using System.Threading.Tasks;
 
@@ -10,6 +11,11 @@ namespace vending_machine_library.Models
     {
         public List<Product> Products = new List<Product>(); // List of products
         public int Price; // Price for the product
+
+        public int GetProductCount() // Returns the number of products in the slot
+        {
+            return Products.Count;
+        }
 
         public Product EjectProduct() // Gives the product to the user
         {
