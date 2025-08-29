@@ -5,7 +5,7 @@
         public string Name { get; set; }
         public Product() { } //def constructor
 
-        public Product(int id, string name, decimal price, int quantity)
+        public Product(string name)
         {
             Name = name;
         }
