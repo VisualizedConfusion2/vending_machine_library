@@ -7,8 +7,8 @@ namespace vending_machine_library.Models
 {
     public class Vendingmachine
     {
-        public List<Slot> Slots { get; set; }
-        public List<Transaction> Transactions { get; set; }
+        public List<Slot> Slots { get; set; } = new List<Slot>();
+        public List<Transaction> Transactions { get; set; } = new List<Transaction>();
         private int _transactionCounter = 1; // Auto-increment transaction IDs
 
         //list of available slots
