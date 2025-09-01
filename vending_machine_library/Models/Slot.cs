@@ -26,7 +26,7 @@ namespace vending_machine_library.Models
 
         public void FillProduct(Product product) // Fills a new product in the slots
         {
-            if(Products.Count <= 8) // Product cap is 8
+            if(Products.Count < 8) // Product cap is 8
             {
                 Products.Add(product);
             }
