@@ -5,6 +5,8 @@ VisualStudioVersion = 17.14.36414.22
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "vending_machine_library", "vending_machine_library\vending_machine_library.csproj", "{B39ADFD7-D43B-4291-9678-D88B78E5642B}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VendingMachineTests1", "VendingMachineTests1\VendingMachineTests1.csproj", "{90485EF8-6E98-44B0-8CDE-E9DA8A891AEC}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{B39ADFD7-D43B-4291-9678-D88B78E5642B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B39ADFD7-D43B-4291-9678-D88B78E5642B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B39ADFD7-D43B-4291-9678-D88B78E5642B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{90485EF8-6E98-44B0-8CDE-E9DA8A891AEC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{90485EF8-6E98-44B0-8CDE-E9DA8A891AEC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{90485EF8-6E98-44B0-8CDE-E9DA8A891AEC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{90485EF8-6E98-44B0-8CDE-E9DA8A891AEC}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
